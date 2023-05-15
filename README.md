@@ -6,7 +6,7 @@ This is a basic Wav playing program that is written in Rust, using the WASAPI, l
 <code>./wav_player YOUR_WAV_FILE_NAME.wav <-pb> </code>
 <br/>
 <br/>
-<em>The </em><strong>-pb</strong> <em>flag stands for "playback", so should you use this flag, your input wav file will be playing continously.</em>
+<em>The </em><strong>-pb</strong> <em>is an optional flag stands for "playback", so should you use this flag, your input wav file will be playing continously. If you don't your wav file will be played until end of the file, and then the program will be terminated.</em>
 <br/>
 <br/>
 <footer>Author: Fırat Özkan</footer>
